@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Project Cafe</title>
+    <link rel="stylesheet" href="./dist/output.css">
+    <style>
+        body { font-family: 'Arial', sans-serif; margin: 0; padding: 0; }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100">
+    <div class="w-full bg-slate-900 text-white p-6 flex justify-between items-center shadow-lg">
+        <div class="text-6xl font-bold tracking-wide pl-4">Project Cafe</div>
+        <div class="flex gap-4 pr-4">
+            <a href="CoffeeShopProject.html" class="text-2xl px-5 py-3 hover:bg-gray-700 rounded-md transition-colors">Home</a>
+            <a href="menu.html" class="text-2xl px-5 py-3 hover:bg-gray-700 rounded-md transition-colors">Menu</a>
+            <a href="about.html" class="text-2xl px-5 py-3 hover:bg-gray-700 rounded-md transition-colors">About Us</a>
+            <a href="contact.html" class="text-2xl px-5 py-3 hover:bg-gray-700 rounded-md transition-colors">Contact</a>
+        </div>
+    </div>
+
+    <!-- Menu Section -->
+    <section class="py-20 bg-slate-800">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-6xl font-bold text-center text-slate-100 mb-20">Our Menu</h2>
+            <h3 class="text-3xl md:text-8xl font-semibold text-center text-slate-300 mt-8 mb-16">Hot Drinks</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Espresso -->
+                <div class="bg-slate-800 rounded-3xl p-6 shadow-lg border border-slate-700">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSavqSdVZ0cTisjgfUt3nipG_U8Miq2soE94ScX7gWMusFA0O1NADt76qQ&s=10" alt="Espresso" class="w-full max-h-96 md:max-h-[28rem] object-contain rounded-3xl shadow-xl mb-6">
+                    <h3 class="text-3xl md:text-4xl font-bold text-slate-100">Espresso</h3>
+                    <p class="text-lg md:text-xl text-slate-300 mt-3">A concentrated coffee brewed by forcing hot water through finely-ground coffee beans. Known for its strong flavor and rich aroma.</p>
+                    <p class="text-lg md:text-x1 text-slate-300 mt-3"> $4.99</p>
+                    <button class="mt-4 px-6 py-3 bg-green-600 text-white rounded-full hover:bg-green-700 transition">Order Now</button>
+                </div>
+                <!-- Cappuccino -->
+                <div class="bg-slate-800 rounded-3xl p-6 shadow-lg border border-slate-700">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfXgscfmAgVZdy6_OveIpriTuCUZfCEEs0CaKy5Ixl4Q&s=10" alt="Cappuccino" class="w-full max-h-96 md:max-h-[28rem] object-contain rounded-3xl shadow-xl mb-6">
+                    <h3 class="text-3xl md:text-4xl font-bold text-slate-100">Cappuccino</h3>
+                    <p class="text-lg md:text-xl text-slate-300 mt-3">A classic Italian coffee drink made with equal parts espresso, steamed milk, and milk foam. Perfect for those who enjoy a creamy and frothy coffee experience.</p>
+                    <p class="text-lg md:text-x1 text-slate-300 mt-3"> $5.99</p>
+                    <button class="mt-4 px-6 py-3 bg-green-600 text-white rounded-full hover:bg-green-700 transition">Order Now</button>
+                </div>
+                <!-- Latte -->
+                <div class="bg-slate-800 rounded-3xl p-6 shadow-lg border border-slate-700">
+                    <img src="https://www.brighteyedbaker.com/wp-content/uploads/2024/07/Dulce-de-Leche-Latte-Recipe.jpg" alt="Latte" class="w-full max-h-96 md:max-h-[28rem] object-contain rounded-3xl shadow-xl mb-6">
+                    <h3 class="text-3xl md:text-4xl font-bold text-slate-100">Latte</h3>
+                    <p class="text-lg md:text-xl text-slate-300 mt-3">A smooth and creamy coffee drink made with espresso and steamed milk. Often topped with a light layer of milk foam for a rich and satisfying taste.</p>
+                    <p class="text-lg md:text-x1 text-slate-300 mt-3"> $3.99</p>
+                    <button class="mt-4 px-6 py-3 bg-green-600 text-white rounded-full hover:bg-green-700 transition">Order Now</button>
+                </div>
+                <!-- Hot Coffee -->
+                <div class="bg-slate-800 rounded-3xl p-6 shadow-lg border border-slate-700">
+                    <img src="https://cdn.shopify.com/s/files/1/0551/0981/2291/files/Flat_White_480x480.jpg?v=1719815848" alt="Hot Coffee" class="w-full max-h-96 md:max-h-[28rem] object-contain rounded-3xl shadow-xl mb-6">
+                    <h3 class="text-3xl md:text-4xl font-bold text-slate-100">Hot Coffee</h3>
+                    <p class="text-lg md:text-xl text-slate-300 mt-3">A simple and classic hot coffee drink made with freshly brewed coffee and steamed milk. Perfect for those who prefer a straightforward and comforting cup of coffee.</p>
+                    <p class="text-lg md:text-x1 text-slate-300 mt-3"> $2.99</p>
+                    <button class="mt-4 px-6 py-3 bg-green-600 text-white rounded-full hover:bg-green-700 transition">Order Now</button>
+                </div>
+                <!-- Matcha Latte -->
+                <div class="bg-slate-800 rounded-3xl p-6 shadow-lg border border-slate-700">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV16bwVCplD4kMO4GcFxSk-Bzu22xcY5K1IA&s" alt="Matcha Latte" class="w-full max-h-96 md:max-h-[28rem] object-contain rounded-3xl shadow-xl mb-6">
+                    <h3 class="text-3xl md:text-4xl font-bold text-slate-100">Matcha Latte</h3>
+                    <p class="text-lg md:text-xl text-slate-300 mt-3">A creamy and refreshing drink made with high-quality matcha powder and steamed milk. Known for its vibrant green color and unique umami flavor.</p>
+                    <p class="text-lg md:text-x1 text-slate-300 mt-3"> $4.99</p>
+                    <button class="mt-4 px-6 py-3 bg-green-600 text-white rounded-full hover:bg-green-700 transition">Order Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-20 bg-slate-900">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-8xl font-bold text-center text-slate-100 mb-20">Cold Drinks</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Iced Coffee -->
+                <div class="bg-slate-800 rounded-3xl p-6 shadow-lg border border-slate-700">
+                    <img src="https://www.allrecipes.com/thmb/Hqro0FNdnDEwDjrEoxhMfKdWfOY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/21667-easy-iced-coffee-ddmfs-4x3-0093-7becf3932bd64ed7b594d46c02d0889f.jpg" alt="Iced Coffee" class="w-full max-h-96 md:max-h-[28rem] object-contain rounded-3xl shadow-xl mb-6">
+                    <h3 class="text-3xl md:text-4xl font-bold text-slate-100">Iced Coffee</h3>
+                    <p class="text-lg md:text-xl text-slate-300 mt-3">A refreshing and chilled coffee drink made with brewed coffee, ice, and optional milk or sweeteners. Perfect for those who want to enjoy their coffee cold.</p>
+                    <p class="text-lg md:text-x1 text-slate-300 mt-3"> $3.99</p>
+                    <button class="mt-4 px-6 py-3 bg-green-600 text-white rounded-full hover:bg-green-700 transition">Order Now</button>
+                </div>
+                <!-- Iced Latte -->
+                <div class="bg-slate-800 rounded-3xl p-6 shadow-lg border border-slate-700">
+                    <img src="https://chocolatecoveredkatie.com/wp-content/uploads/2026/04/Vegan-Iced-Latte-Recipe.jpg" alt="Iced Latte" class="w-96 max-h-full md:max-h-[28rem] object-contain rounded-3xl shadow-xl mb-6">
+                    <h3 class="text-3xl md:text-4xl font-bold text-slate-100">Iced Latte</h3>
+                    <p class="text-lg md:text-xl text-slate-300 mt-3">A delicious and refreshing drink made with espresso, ice, and steamed milk. Perfect for those who want a cooler alternative to the traditional hot latte.</p>
+                    <p class="text-lg md:text-x1 text-slate-300 mt-3"> $4.99</p>
+                    <button class="mt-4 px-6 py-3 bg-green-600 text-white rounded-full hover:bg-green-700 transition">Order Now</button>
+                </div>
+                <!-- Iced Matcha Latte -->
+                <div class="bg-slate-800 rounded-3xl p-6 shadow-lg border border-slate-700">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMit5jlBEAANY8YSqRTN5WC4yzhnC64O35Z08HNLTolHvMc4Tp6XTLC2fs&s=10" alt="Iced Matcha Latte" class="w-96 max-h-full md:max-h-[28rem] object-contain rounded-3xl shadow-xl mb-6">
+                    <h3 class="text-3xl md:text-4xl font-bold text-slate-100">Iced Matcha Latte</h3>
+                    <p class="text-lg md:text-xl text-slate-300 mt-3">A creamy and refreshing drink made with high-quality matcha powder and steamed milk. Known for its vibrant green color and unique umami flavor.</p>
+                    <p class="text-lg md:text-x1 text-slate-300 mt-3"> $4.99</p>
+                    <button class="mt-4 px-6 py-3 bg-green-600 text-white rounded-full hover:bg-green-700 transition">Order Now</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+          <footer class="w-full bg-slate-800 text-center text-slate-300 py-6">
+            &copy; 2026 Project Cafe. All rights reserved.
+            </footer>
+</body>
+</html>

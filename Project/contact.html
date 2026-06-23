@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Project Cafe</title>
+    <link rel="stylesheet" href="./dist/output.css">
+    <style>
+        body { font-family: 'Arial', sans-serif; margin: 0; padding: 0; }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100">
+    <div class="w-full bg-slate-900 text-white p-6 flex justify-between items-center shadow-lg">
+        <div class="text-6xl font-bold tracking-wide pl-4">Project Cafe</div>
+        <div class="flex gap-4 pr-4">
+            <a href="CoffeeShopProject.html" class="text-2xl px-5 py-3 hover:bg-gray-700 rounded-md transition-colors">Home</a>
+            <a href="menu.html" class="text-2xl px-5 py-3 hover:bg-gray-700 rounded-md transition-colors">Menu</a>
+            <a href="about.html" class="text-2xl px-5 py-3 hover:bg-gray-700 rounded-md transition-colors">About Us</a>
+            <a href="contact.html" class="text-2xl px-5 py-3 hover:bg-gray-700 rounded-md transition-colors">Contact</a>
+        </div>
+    </div>
+
+    <section class="min-h-[70vh] flex items-center justify-center px-6 py-20">
+        <div class="max-w-2xl w-full bg-slate-800 rounded-3xl p-8">
+            <h1 class="text-3xl text-center font-bold mb-4">Contact Us</h1>
+            <p class="text-2xl text-center text-slate-300 mb-8">Have questions or feedback? Send us a message.</p>
+            <form>
+                <label class="block text-slate-300">Name</label>
+                <input class="w-full mb-4mt-2 p-3 rounded bg-slate-700 border border-slate-600 text-white" />
+                <label class="block text-slate-300">Email</label>
+                <input class="w-full mb-4 mt-2 p-3 rounded bg-slate-700 border border-slate-600 text-white" />
+                <label class="block text-slate-300">Message</label>
+                <textarea class="w-full mb-4 mt-2 p-3 rounded bg-slate-700 border border-slate-600 text-white" rows="6"></textarea>
+                <button type="submit" class="px-6 py-3 bg-green-600 text-white rounded-full hover:bg-green-700 transition">Send</button>
+            </form>
+            <div class="mt-8 text-slate-300">
+                <p class="mb-2 text-center"> You can also reach us at <a href="mailto:info@projectcafe.com" class="text-green-500 hover:underline">info@projectcafe.com</a> or phone: <a href="tel:+11234567890" class="text-green-500 hover:underline">(123) 456-7890</a></p>
+            </div>
+        </div>
+    </section>
+
+      <footer class="w-full bg-slate-800 text-center text-slate-300 py-6">
+        &copy; 2026 Project Cafe. All rights reserved.
+    </footer>
+</body>
+</html>
